@@ -1,4 +1,6 @@
 package pizzaria;
+import pizzaria.entities.DAO.UsuarioDAO;
+import pizzaria.entities.Usuarios.Cliente;
 
 /**
  * Hello world!
@@ -8,6 +10,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        UsuarioDAO uDAO = new UsuarioDAO();
+        Cliente c1 = new Cliente("Arthur", "000000000", "(41)089080808", "21/08/1996", "891283913", "Rua canada", 809);
+        uDAO.salvarPessoa(c1);
+        
     }
 }
