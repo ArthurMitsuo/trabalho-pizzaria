@@ -1,4 +1,4 @@
-package pizzaria.entities;
+package entities;
 import javax.persistence.Entity;
 
 @Entity

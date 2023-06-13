@@ -1,6 +1,6 @@
-package pizzaria;
-import pizzaria.entities.DAO.UsuarioDAO;
-import pizzaria.entities.Usuarios.Cliente;
+package com.arthur;
+import entities.DAO.UsuarioDAO;
+import entities.Usuarios.Cliente;
 
 /**
  * Hello world!

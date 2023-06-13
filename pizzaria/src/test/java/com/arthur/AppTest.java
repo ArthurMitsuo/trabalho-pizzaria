@@ -1,4 +1,4 @@
-package pizzaria;
+package com.arthur;
 
 import static org.junit.Assert.assertTrue;
 
